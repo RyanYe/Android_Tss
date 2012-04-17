@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TssActivity!</string>
+    <string name="app_name">Tss</string>
+    <color name="background_color">#7D9EC0</color>
+    <color name="tabback">#708090</color>
+    <color name="text_color">#483d8b</color>
+
+</resources>

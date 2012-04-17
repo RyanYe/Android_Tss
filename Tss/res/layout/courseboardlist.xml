@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color" >
+
+    <TextView
+        android:id="@+id/boardinfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="21dp"
+        android:text="title"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/boarddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/boardinfo1"
+        android:layout_below="@+id/boardinfo1"
+        android:layout_marginTop="14dp"
+        android:text="Date"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/boardContent"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/boarddate"
+        android:layout_below="@+id/boarddate"
+        android:layout_marginTop="14dp"
+        android:text="content:"
+        android:textColor="@color/text_color" />
+
+</RelativeLayout>

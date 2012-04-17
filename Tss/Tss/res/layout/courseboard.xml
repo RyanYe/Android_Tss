@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:orientation="vertical"
+    android:background="@color/background_color" >
+
+    
+    <TextView
+        android:id="@+id/boardtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Board"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/text_color">
+        </TextView>>
+    
+    
+    
+     <ListView
+        android:id="@+id/boardnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+         android:layout_marginTop="20dp"
+         android:background="@color/background_color"
+         >
+    </ListView>
+      
+
+</LinearLayout>

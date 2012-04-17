@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color" >
+
+    <TextView
+        android:id="@+id/topictitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="26dp"
+        android:text="title"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/topicauthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/topictitle"
+        android:layout_below="@+id/topictitle"
+        android:layout_marginTop="14dp"
+        android:text="author:"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/topicdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/topicauthor"
+        android:layout_alignBottom="@+id/topicauthor"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="38dp"
+        android:text="Date"
+        android:textColor="@color/text_color" />
+
+</RelativeLayout>

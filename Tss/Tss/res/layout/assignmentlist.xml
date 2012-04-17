@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color" >
+
+    <TextView
+        android:id="@+id/assignNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="21dp"
+        android:text="assignment no."
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/assignDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/assignNo"
+        android:layout_below="@+id/assignNo"
+        android:text="Due date" 
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/assignDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/assignDate"
+        android:layout_below="@+id/assignDate"
+        android:text="Description:" 
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/assignContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/assignDes"
+        android:layout_below="@+id/assignDes"
+      android:textColor="@color/text_color"
+        android:text="content:" 
+       />
+
+</RelativeLayout>

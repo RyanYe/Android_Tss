@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:background="@color/background_color"
+    
+    >
+
+<TextView
+    android:id="@+id/coursetitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="52dp"
+    android:text="Course Information" 
+    android:textSize="25dp"
+    android:textColor="@color/text_color"/>
+
+<TextView
+    android:id="@+id/courseinfo1"
+    android:layout_width="360px"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/coursetitle"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="34dp"
+    
+    android:text="course no" 
+    android:textColor="@color/text_color"/>
+
+<TextView
+    android:id="@+id/courseinfo2"
+    
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/courseinfo1"
+    android:layout_below="@+id/courseinfo1"
+    android:layout_marginTop="16dp"
+     android:layout_width="360px"
+    android:text="course name" 
+    android:textColor="@color/text_color"/>
+
+<TextView
+    android:id="@+id/coursedp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/courseinfo2"
+    android:layout_below="@+id/courseinfo2"
+    android:layout_marginTop="18dp"
+    
+    android:text="Description:" 
+    android:textColor="@color/text_color"/>
+
+<TextView
+    android:id="@+id/courseinfo3"
+    
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/coursedp"
+    android:layout_below="@+id/coursedp"
+    android:text="TextView"
+     android:layout_width="360px"
+    android:textColor="@color/text_color" />
+
+</RelativeLayout> 

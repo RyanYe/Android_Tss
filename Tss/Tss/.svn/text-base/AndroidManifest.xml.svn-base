@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.nju.software.yy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+        <application
+            android:icon="@drawable/sign"
+            android:label="@string/app_name" >
+            <activity
+                android:label="@string/app_name"
+                android:name=".TssActivity" >
+                <intent-filter >
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".CourseActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".CourseInfoActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".CourseBoardActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".AssignmentActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".CourseForumActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".MainActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".AnnoucementActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".ForumActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".TopicActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".LoadActivity" >
+            </activity>
+            <activity
+                android:label="@string/app_name"
+                android:name=".CourseAssignmentActivity" >
+            </activity>
+            <service 
+                android:enabled="true"
+                android:name=".UpdateService">
+                
+            </service>
+        </application>
+</manifest>

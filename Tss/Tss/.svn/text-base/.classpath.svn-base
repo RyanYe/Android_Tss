@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="D:/workspace/Tss/lib/filterbuilder.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Tss/lib/htmllexer.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Tss/lib/htmlparser.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Tss/lib/sitecapturer.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Tss/lib/thumbelina.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,115 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3470), pid=9012, tid=9452
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0_01-b08
+# Java VM: Java HotSpot(TM) Client VM (21.1-b02 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01ada800):  JavaThread "Unknown thread" [_thread_in_vm, id=9452, stack(0x01a30000,0x01a80000)]
+
+Stack: [0x01a30000,0x01a80000],  sp=0x01a7efec,  free space=315k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1630e1]
+V  [jvm.dll+0x15dcfb]
+V  [jvm.dll+0x18e37]
+V  [jvm.dll+0x1a6a8]
+V  [jvm.dll+0x2a42f]
+V  [jvm.dll+0x2b818]
+V  [jvm.dll+0x2bedb]
+V  [jvm.dll+0x2bf2a]
+V  [jvm.dll+0x2c07d]
+V  [jvm.dll+0x2c15a]
+V  [jvm.dll+0x2c3d7]
+V  [jvm.dll+0x73cb1]
+V  [jvm.dll+0x7406b]
+V  [jvm.dll+0x121a7c]
+V  [jvm.dll+0x14382a]
+V  [jvm.dll+0xa2940]
+C  [javaw.exe+0x1359]
+C  [javaw.exe+0x1dc9]
+C  [javaw.exe+0xa0cb]
+C  [javaw.exe+0xa155]
+C  [kernel32.dll+0x4ed6c]  BaseThreadInitThunk+0x12
+C  [ntdll.dll+0x6377b]  RtlInitializeExceptionChain+0xef
+C  [ntdll.dll+0x6374e]  RtlInitializeExceptionChain+0xc2
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x01ada800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9452, stack(0x01a30000,0x01a80000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00300000 - 0x0032f000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x77080000 - 0x771bc000 	C:\Windows\SYSTEM32\ntdll.dll
+0x76af0000 - 0x76bc4000 	C:\Windows\system32\kernel32.dll
+0x75460000 - 0x754aa000 	C:\Windows\system32\KERNELBASE.dll
+0x75600000 - 0x756a0000 	C:\Windows\system32\ADVAPI32.dll
+0x766a0000 - 0x7674c000 	C:\Windows\system32\msvcrt.dll
+0x77290000 - 0x772a9000 	C:\Windows\SYSTEM32\sechost.dll
+0x771d0000 - 0x77271000 	C:\Windows\system32\RPCRT4.dll
+0x76e10000 - 0x76ed9000 	C:\Windows\system32\USER32.dll
+0x75800000 - 0x7584e000 	C:\Windows\system32\GDI32.dll
+0x76690000 - 0x7669a000 	C:\Windows\system32\LPK.dll
+0x76850000 - 0x768ed000 	C:\Windows\system32\USP10.dll
+0x74020000 - 0x741be000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\COMCTL32.dll
+0x754d0000 - 0x75527000 	C:\Windows\system32\SHLWAPI.dll
+0x75850000 - 0x7586f000 	C:\Windows\system32\IMM32.DLL
+0x75970000 - 0x75a3c000 	C:\Windows\system32\MSCTF.dll
+0x72450000 - 0x7250e000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x5f770000 - 0x5fa91000 	C:\Program Files\Java\jre7\bin\client\jvm.dll
+0x71080000 - 0x71087000 	C:\Windows\system32\WSOCK32.dll
+0x755c0000 - 0x755f5000 	C:\Windows\system32\WS2_32.dll
+0x77280000 - 0x77286000 	C:\Windows\system32\NSI.dll
+0x73570000 - 0x735a2000 	C:\Windows\system32\WINMM.dll
+0x75960000 - 0x75965000 	C:\Windows\system32\PSAPI.DLL
+0x73670000 - 0x7367c000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x73600000 - 0x73620000 	C:\Program Files\Java\jre7\bin\java.dll
+0x73840000 - 0x7386a000 	C:\Program Files\Java\jre7\bin\jdwp.dll
+0x742b0000 - 0x742b7000 	C:\Program Files\Java\jre7\bin\npt.dll
+0x73100000 - 0x73113000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:53525 -Dfile.encoding=GBK -Xbootclasspath:C:\Program Files\Android\android-sdk\platforms\android-10\android.jar 
+java_command: cn.edu.nju.software.yy.getData.CourseInfo
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0
+CLASSPATH=.;C:\Program Files\Java\jdk1.7.0/lib/dt.jar;C:\Program Files\Java\jdk1.7.0/lib/tool.jar
+PATH=C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;D:\TortoiseSVN\bin;d:\MATLAB\R2011a\runtime\win32;d:\MATLAB\R2011a\bin;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Java\jdk1.7.0/bin;JAVA_HOME/jre/bin;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\CTEX\UserData\miktex\bin;C:\CTEX\MiKTeX\miktex\bin;C:\CTEX\CTeX\ctex\bin;C:\CTEX\CTeX\cct\bin;C:\CTEX\CTeX\ty\bin;C:\CTEX\Ghostscript\gs9.00\bin;C:\CTEX\GSview\gsview;C:\CORBA\omniORB-4.1.4\bin\x86_win32;;D:\eclipse;
+USERNAME=softwware
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 3319824k(1271116k free), swap 6637892k(4373032k free)
+
+vm_info: Java HotSpot(TM) Client VM (21.1-b02) for windows-x86 JRE (1.7.0_01-b08), built on Oct  3 2011 02:11:36 by "java_re" with unknown MS VC++:1600
+
+time: Fri Mar 23 09:35:52 2012
+elapsed time: 0 seconds
+
